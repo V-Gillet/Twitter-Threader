@@ -11,6 +11,11 @@
     margin-inline-end: 50px;
 }
 
+.card-wrapper{
+  width: 85%;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 @media screen and (max-width: 670px) {
   .twitter-auth-btn {
     margin-inline-end: 0px;
