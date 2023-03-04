@@ -1,0 +1,23 @@
+@import "_theme";
+@import "~bootstrap/scss/bootstrap";
+
+.twitter-auth-btn{
+  width : 270px;
+  height : 70px;
+  margin-inline-end: 195px;
+}
+
+.bird{
+    margin-inline-end: 50px;
+}
+
+@media screen and (max-width: 670px) {
+  .twitter-auth-btn {
+    margin-inline-end: 0px;
+  }
+
+  .bird {
+    margin-inline-end: 0px;
+    display: none;
+  }
+}
